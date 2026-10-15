@@ -1,11 +1,35 @@
 /* ========================================
    Float Practice
 ======================================== */
+.cats-right {
+  float: right;
+background-color: bisque;
+padding: 1rem;
+margin-left: 1rem;
+margin-bottom: 1rem;
+}
 
+.cats-right figcaption {
+text-align: center;
+font-weight: bold;
+font-size:80%;
+}
+.cats-left {
+  background-color: rgb(190, 169, 141);
+ padding: 1rem;
+margin-right: 1rem;
+margin-bottom: 1rem;
+  float: left;
+}
+.cats-left figcaption {
+  font-weight: bold;
+  font-size: 90%;
+}
 
-
-
-
+img {
+max-width: 100%;
+height: auto;
+}
 
 
 
